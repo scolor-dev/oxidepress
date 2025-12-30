@@ -58,6 +58,10 @@ impl Site {
 }
 
 fn to_output_path(out_dir: &Path, rel_md: &Path) -> PathBuf {
+    if rel_md == Path::new("index.md") {
+        return out_dir.join("index.html");
+    }
+    
     let mut rel = rel_md.to_path_buf();
     rel.set_extension(""); // a.md -> a
     // a -> a/index.html
