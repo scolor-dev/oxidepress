@@ -113,10 +113,10 @@ impl Cli {
                 }
                 Ok(())
             }
-            Command::Serve { host, port, watch } => {
-                let _cfg = crate::config::Config::load(&root, config_path.as_deref())?;
-                let _ = (host, port, watch);
-                bail!("serve is not implemented yet")
+            Command::Serve { host, port, watch: _ } => {
+                let cfg = crate::config::Config::load(&root, config_path.as_deref())?;
+                // serve は dist を配るので、build 済み前提（なければ serve.rs でエラー）
+                crate::serve::serve_dist(&cfg, &host, port)
             }
         }
     }
