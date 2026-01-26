@@ -200,7 +200,11 @@ const DEFAULT_PAGE_HTML: &str = r#"<!doctype html>
 </html>
 "#;
 
-const DEFAULT_INDEX_MD: &str = r#"# Hello oxidepress
+const DEFAULT_INDEX_MD: &str = r#"+++
+title = "Hello oxidepress"
++++
+
+# Hello oxidepress
 
 It works.
 "#;
