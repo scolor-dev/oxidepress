@@ -6,6 +6,7 @@ use walkdir::WalkDir;
 
 use crate::config::Config;
 use crate::error::Result;
+use crate::site::page::{infer_title, parse_front_matter};
 
 pub use page::Page;
 
@@ -37,6 +38,7 @@ impl Site {
 
             let markdown = fs::read_to_string(path)?;
             let rel = path.strip_prefix(&cfg.content_dir).unwrap_or(path);
+            let (meta, body_markdown) = parse_front_matter(&markdown)?;
 
             // 例: content/blog/a.md -> dist/blog/a/index.html （SSGっぽいURL）
             let output_path = to_output_path(&cfg.output_dir, rel);
@@ -45,8 +47,12 @@ impl Site {
                 // source: path.to_path_buf(),
                 route: rel.to_path_buf(),
                 output_path,
-                title: page::infer_title(&markdown, rel),
-                markdown,
+                title: meta
+                    .title
+                    .clone()
+                    .unwrap_or_else(|| infer_title(&body_markdown, rel)),
+                meta,
+                markdown: body_markdown,
             });
         }
 
