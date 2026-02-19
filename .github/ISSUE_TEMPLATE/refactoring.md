@@ -1,22 +1,18 @@
----
+﻿---
 name: Refactoring
-about: "[EN] Improve or restructure code without changing behavior / [JP] 振る舞いは変えずにコードを改善・整理"
-title: "[REFACTOR] title / タイトル"
-labels: 'priority: low, refactor'
-assignees: ''
-
+about: 挙動を変えない内部改善提案 / Internal code improvement without intended behavior change
+title: "[REFACTOR] "
+labels: [refactor]
+assignees: []
 ---
 
-## Refactoring `[REFACTOR] Short description`
+## 対象 / Target Area
 
-### Description / 概要
-<!-- What code is being refactored? / どのコードを整理・改善しますか？ -->
+## 現在の課題 / Current Pain Point
 
-### Motivation / 動機
-<!-- Why is this refactoring needed? / なぜリファクタリングが必要ですか？ -->
+## 方針 / Proposed Refactor
 
-### Changes / 変更内容
-<!-- List of main changes / 主な変更点を箇条書きで -->
+## 非対象 / Non goals
+<!-- 変えない前提を明確に / Explicitly list what should stay unchanged. -->
 
-### Additional Context / 補足
-<!-- Any additional info / 補足情報や注意点 -->
+## 補足情報 / Additional Context

@@ -1,22 +1,23 @@
+﻿---
+name: Documentation improvement
+about: ドキュメント改善提案 / Suggest fixes or additions to docs
+title: "[DOCS] "
+labels: [documentation]
+assignees: []
 ---
-name: Documentation Improvement
-about: "[EN] Suggest corrections or additions to documentation / [JP] ドキュメントの修正や追加を提案"
-title: "[DOC] title / タイトル"
-labels: 'documentation, priority: low'
-assignees: ''
 
----
+## 対象ドキュメント / Documentation Area
+- [ ] README
+- [ ] CLI usage help text
+- [ ] Code comments
+- [ ] Contribution process templates
+- [ ] Other:
 
-## Documentation Improvement `[DOC] Short description`
+## 現在の問題 / Current Issue
 
-### Description / 概要
-<!-- What part of the documentation should be improved? / どの部分のドキュメントを改善すべきですか？ -->
+## 提案内容 / Suggested Update
 
-### Motivation / 動機
-<!-- Why is this change needed? / なぜこの変更が必要ですか？ -->
+## 想定読者 / Audience
+<!-- 例: 新規コントリビュータ、メンテナ、利用者 / e.g. contributor, maintainer, user -->
 
-### Proposed Changes / 提案内容
-<!-- Describe the improvements or additions / 改善や追加内容を簡潔に -->
-
-### Additional Context / 補足
-<!-- Screenshots, links, or other context / スクリーンショットやリンクなど -->
+## 補足情報 / Additional Context

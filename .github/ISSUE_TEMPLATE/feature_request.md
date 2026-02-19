@@ -1,22 +1,29 @@
----
+﻿---
 name: Feature request
-about: "[EN] Suggest a new feature or enhancement / [JP] 新機能や改善案を提案"
-title: "[FEATURE] title / タイトル"
-labels: 'feature, priority: medium'
-assignees: ''
-
+about: 新機能の提案 / Propose a new capability
+title: "[FEATURE] "
+labels: [feature]
+assignees: []
 ---
 
-## Feature Request
+## 課題・目的 / Problem Goal
+<!-- JP: 解決したい課題や実現したい価値。 -->
+<!-- EN: Problem to solve or value to add. -->
 
-### Description / 概要
-<!-- What feature do you want? / どんな機能がほしいですか？ -->
+## 提案内容 / Proposed Solution
 
-### Rationale / 理由
-<!-- Why is this feature needed? / なぜこの機能が必要ですか？ -->
+## 代替案 / Alternatives Considered
 
-### Proposed Solution / 提案内容
-<!-- How should it work? / どのように動作すべきですか？ -->
+## 影響範囲 / Scope
+- [ ] CLI (`src/cli.rs`)
+- [ ] Build pipeline (`src/build.rs`)
+- [ ] Dev server (`src/serve.rs`)
+- [ ] Site page parsing (`src/site/*`)
+- [ ] Config (`src/config.rs`)
+- [ ] Docs templates content
 
-### Additional Context / 補足
-<!-- Screenshots, links, or other context / スクリーンショットやリンクなど -->
+## 受け入れ条件 / Acceptance Criteria
+- [ ]
+- [ ]
+
+## 補足情報 / Additional Context

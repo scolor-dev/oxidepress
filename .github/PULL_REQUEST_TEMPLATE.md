@@ -1,52 +1,40 @@
-## Title / タイトル
-<!-- Example: [BUG] Fix crash on startup -->
+﻿## 概要 / Summary
+<!-- JP: このPRで何を変えたかを簡潔に書いてください。 -->
+<!-- EN: Briefly describe what this PR changes. -->
 
----
+## 変更種別 / Change Type
+- [ ] バグ修正 / Bug fix
+- [ ] 新機能 / Feature
+- [ ] 改善 / Enhancement
+- [ ] リファクタリング / Refactor
+- [ ] ドキュメント / Documentation
+- [ ] その他運用 / Chore
 
-## Overview / 概要
-[EN] Brief summary of what this PR does  
-[JP] この PR が行う変更の概要を簡潔に記載
+## 影響範囲 / Scope
+- [ ] CLI (`src/cli.rs`)
+- [ ] ビルド処理 / Build pipeline (`src/build.rs`)
+- [ ] 開発サーバー / Dev server (`src/serve.rs`)
+- [ ] サイト/ページ解析 / Site page parsing (`src/site/*`)
+- [ ] 設定 / Config (`src/config.rs`)
+- [ ] ドキュメント・テンプレート・コンテンツ / Docs templates content
 
----
+## 実装詳細 / Details
+<!-- JP: 実装の要点、トレードオフ、レビューで見てほしい点。 -->
+<!-- EN: Key implementation points, tradeoffs, and review focus. -->
 
-## Type / 種類
-<!-- 該当するものを残す -->
-- Bug Fix
-- Feature
-- Enhancement
-- Refactoring
-- Documentation
+## 確認項目 / Validation
+- [ ] `cargo fmt --all -- --check`
+- [ ] `cargo clippy --all-targets --all-features -- -D warnings`
+- [ ] `cargo test`
+- [ ] 手動確認を実施 / Manual check performed (if needed)
 
----
+手動確認メモ / Manual check notes:
+1.
+2.
 
-## Changes / 変更内容
-[EN] List key changes  
-[JP] 主な変更点
-
-- 
-
----
-
-## Motivation / Purpose / 目的
-[EN] Why this change is needed  
-[JP] なぜこの変更が必要なのか
-
----
-
-## How to Test / 動作確認方法
-[EN] Steps to verify the behavior  
-[JP] 動作確認手順
-
-1.  
-2.  
-
----
-
-## Related Issue / 関連 Issue
+## 関連Issue / Related Issues
 - Closes #
 
----
-
-## Additional Notes / 補足
-[EN] Optional notes, screenshots, etc.  
-[JP] 必要に応じた補足・スクショなど
+## 補足・リスク / Risks Notes
+<!-- JP: 互換性への影響、移行手順、後続タスクなど。 -->
+<!-- EN: Compatibility impact, migration notes, follow-up tasks. -->

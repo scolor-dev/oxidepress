@@ -1,29 +1,38 @@
----
+﻿---
 name: Bug report
-about: "[EN] Report a bug / [JP] バグを報告"
-title: "[BUG] title / タイトル"
-labels: 'bug, priority: medium'
-assignees: ''
-
+about: バグや不具合を報告 / Report a defect or regression
+title: "[BUG] "
+labels: [bug]
+assignees: []
 ---
 
-## Bug Report
+## 概要 / Summary
+<!-- JP: 不具合の内容を簡潔に。 -->
+<!-- EN: Brief description of the bug. -->
 
-### Description / 概要
-<!-- What is the problem? / 問題は何ですか？ -->
-
-### Steps to Reproduce / 再現手順
-1. 
-2. 
-3. 
-
-### Expected Behavior / 期待する動作
-<!-- What should happen? / どう動くべきですか？ -->
-
-### Actual Behavior / 実際の動作
-<!-- What happens instead? / 実際にはどうなっていますか？ -->
-
-### Environment / 環境
+## 環境 / Environment
 - OS:
-- Browser / Version:
-- App Version:
+- Rust version (`rustc --version`):
+- Project version or commit:
+
+## 再現手順 / Reproduction Steps
+1.
+2.
+3.
+
+## 期待挙動 / Expected Behavior
+
+## 実際の挙動 / Actual Behavior
+<!-- エラーログやメッセージがあれば記載 / Include logs or error messages if available. -->
+
+## 影響範囲 / Scope
+- [ ] Build command (`build`)
+- [ ] Serve command (`serve`)
+- [ ] Markdown front matter parsing
+- [ ] Output path routing
+- [ ] Templates rendering
+- [ ] Other:
+
+## 補足情報 / Additional Context
+<!-- 最小再現入力、スクリーンショット、関連Issue/PRなど。 -->
+<!-- Minimal reproducible input, screenshots, related links. -->

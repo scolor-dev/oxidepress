@@ -1,13 +1,21 @@
-## Description / 概要
-[EN] Refactors code without changing behavior  
-[JP] 振る舞いは変えずにコードを改善・整理
+﻿## 概要 / Summary
+<!-- JP: リファクタリング対象と目的。 -->
+<!-- EN: What was refactored and why. -->
 
-## Changes / 変更内容
-- 
+## 背景 / Motivation
+<!-- JP: 今この整理が必要な理由（保守性、重複、複雑性）。 -->
+<!-- EN: Why this refactor is needed now. -->
 
-## Reason / 理由
-[EN] Why this refactoring is needed  
-[JP] なぜこのリファクタリングが必要か
+## 変更ポイント / Refactoring Notes
+<!-- JP: 主要な移動・分割・命名変更など。 -->
+<!-- EN: Key code moves or restructuring notes. -->
 
-## Related Issue / 関連 Issue
-- Closes #[REFACTOR Issue Number]
+## 挙動確認 / Behavior Check
+- [ ] 機能変更なし想定 / No functional behavior change intended
+- [ ] 既存テスト通過 / Existing tests still pass
+- [ ] `cargo fmt --all -- --check`
+- [ ] `cargo clippy --all-targets --all-features -- -D warnings`
+- [ ] `cargo test`
+
+## 関連Issue / Related Issues
+- Closes #

@@ -1,12 +1,28 @@
-## Description / 概要
-[EN] Improves or extends existing features  
-[JP] 既存機能を改善・拡張
+﻿## 概要 / Summary
+<!-- JP: 既存挙動の改善内容。 -->
+<!-- EN: What existing behavior was improved. -->
 
-## Changes / 変更内容
-- 
+## 現状の課題 / Current Limitation
+<!-- JP: 現在の不便さ・弱点。 -->
+<!-- EN: Current pain point. -->
 
-## How to Test / 動作確認方法
-- 
+## 改善内容 / Improvement
+<!-- JP: 何をどう改善したか。 -->
+<!-- EN: What changed and why this is better. -->
 
-## Related Issue / 関連 Issue
-- Closes #[ENHANCEMENT Issue Number]
+## 影響範囲 / Affected Scope
+- [ ] CLI (`src/cli.rs`)
+- [ ] ビルド処理 / Build pipeline (`src/build.rs`)
+- [ ] 開発サーバー / Dev server (`src/serve.rs`)
+- [ ] サイト/ページ解析 / Site page parsing (`src/site/*`)
+- [ ] 設定 / Config (`src/config.rs`)
+- [ ] ドキュメント・テンプレート・コンテンツ / Docs templates content
+
+## 確認項目 / Validation
+- [ ] `cargo fmt --all -- --check`
+- [ ] `cargo clippy --all-targets --all-features -- -D warnings`
+- [ ] `cargo test`
+- [ ] 改善前後の挙動確認 / Behavior comparison performed
+
+## 関連Issue / Related Issues
+- Closes #

@@ -1,22 +1,23 @@
----
+﻿---
 name: Enhancement
-about: "[EN] Suggest improvements or enhancements to existing features / [JP] 既存機能の改善や拡張を提案"
-title: "[ENHANCEMENT] title / タイトル"
-labels: 'enhancement, priority: medium'
-assignees: ''
-
+about: 既存機能の改善提案 / Improve existing behavior
+title: "[ENHANCEMENT] "
+labels: [enhancement]
+assignees: []
 ---
 
-## Enhancement `[ENHANCEMENT] Short description`
+## 現状 / Current Behavior
 
-### Description / 概要
-<!-- What feature or behavior should be improved? / どの機能や動作を改善すべきですか？ -->
+## 改善したい点 / Desired Improvement
 
-### Motivation / 動機
-<!-- Why is this improvement needed? / なぜこの改善が必要ですか？ -->
+## 影響範囲 / Scope
+- [ ] CLI (`src/cli.rs`)
+- [ ] Build pipeline (`src/build.rs`)
+- [ ] Dev server (`src/serve.rs`)
+- [ ] Site page parsing (`src/site/*`)
+- [ ] Config (`src/config.rs`)
+- [ ] Docs templates content
 
-### Proposed Changes / 提案内容
-<!-- How should it be improved? / どのように改善すべきですか？ -->
+## 任意提案 / Optional Proposal
 
-### Additional Context / 補足
-<!-- Screenshots, links, or other context / スクリーンショットやリンクなど -->
+## 補足情報 / Additional Context
